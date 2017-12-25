@@ -1,0 +1,9 @@
+--- !<org.apereo.cas.services.RegexRegisteredService>
+serviceId: "192.168.99.1:8000/auth"
+name: "Pfe auth"
+id: 1000
+description: "description"
+attributeReleasePolicy: !<org.apereo.cas.services.ReturnAllAttributeReleasePolicy> {}
+accessStrategy: !<org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy>
+  enabled: true
+  ssoEnabled: true
